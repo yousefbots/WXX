@@ -75,7 +75,7 @@ client.on("messageCreate", async (message) => {
           `> Change TikTok Downloader without watermark's channel!`
         )
         .setFooter({
-          text: "Made By mahmoud#0003",
+          text: "AdaM's Assistant",
           iconURL: message.guild.iconURL({ dynamic: true }),
         });
       message.reply({ embeds: [embed] });
@@ -389,7 +389,7 @@ client.on("messageCreate", async (message) => {
           `[Click Me](https://discord.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=8)`
         )
         .setFooter({
-          text: "Made By mahmoud#0003",
+          text: "AdaM's Assistant",
           iconURL: message.guild.iconURL({ dynamic: true }),
         });
 
